@@ -1,4 +1,4 @@
-def call () {
+def call (Map config) {
     if (config.type == "maven") {
         mavenPipelinePipeline()
     }
