@@ -1,6 +1,6 @@
 def call (Map config) {
     if (config.type == "maven") {
-        mavenPipelinePipeline()
+        mavenPipeline()
     }
     else {
         pipeline {
