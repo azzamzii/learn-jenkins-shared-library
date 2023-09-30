@@ -9,8 +9,6 @@ def call() {
                     }
                 }
             }
-        }
-        stages {
             stage("Maven Compile") {
                 steps {
                     script {
@@ -18,8 +16,6 @@ def call() {
                     }
                 }
             }
-        }
-        stages {
             stage("Maven Test") {
                 steps {
                     script {
